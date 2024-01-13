@@ -1,0 +1,352 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+.navbar {
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 40px;
+  width: 160px;
+  background-color: transparent;
+  padding-top: 12px;
+}
+.nav-search {
+  height: 40px;
+  width: 446px;
+  color: rgb(144, 141, 141);
+  padding-top: 12px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+}
+.search-input {
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+  border-color: rgb(144, 141, 141);
+  width: 470px;
+  background-color: rgb(238, 231, 231);
+  border: none;
+  font-size: 1rem;
+}
+.search {
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  border-color: rgb(144, 141, 141);
+  border: none;
+  width: 44px;
+  background-color: rgb(238, 231, 231);
+  color: rgb(144, 141, 141);
+  font-size: 1rem;
+}
+.account {
+  color: black;
+  display: flex;
+  font-size: 1.2rem;
+  width: 133px;
+  height: 50px;
+  gap: 0.7rem;
+}
+.cart {
+  font-size: 1.2rem;
+  padding-top: 24px;
+}
+.store {
+  font-size: 1.2rem;
+  padding-top: 24px;
+}
+.link {
+  font-size: 1.2rem;
+  padding-top: 24px;
+}
+.box {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin: 0px;
+  gap: 2px;
+  border: 2px solid beige;
+  background-color: white;
+}
+
+.box1 {
+  width: 130px;
+  text-align: center;
+  margin: 0px;
+}
+span {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.box2 {
+  width: 130px;
+  text-align: center;
+  margin: 0px;
+}
+.box3 {
+  width: 130px;
+  text-align: center;
+  margin: 0px;
+}
+.box4 {
+  width: 130px;
+  text-align: center;
+  margin: 0px;
+}
+.box5 {
+  width: 130px;
+  text-align: center;
+  margin: 0px;
+}
+.box6 {
+  width: 130px;
+  text-align: center;
+  margin: 0px;
+}
+.box7 {
+  width: 130px;
+  text-align: center;
+  margin: 0px;
+}
+.box8 {
+  width: 130px;
+  text-align: center;
+  margin: 0px;
+}
+body {
+  background-color: #eaeaea;
+}
+.hero {
+  height: 200px;
+  width: 100%;
+  background-image: url(flight\ img.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  position: absolute;
+  background-color: white;
+  top: 240px;
+  margin: 0px;
+}
+header {
+  background-color: white;
+}
+.angle {
+  display: flex;
+  gap: 0.4rem;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.down {
+  margin-top: 0.2rem;
+  font-size: 15px;
+}
+.down:hover.down {
+  transform: rotate(180deg);
+}
+.devices {
+  height: 400px;
+  width: 100%;
+  border: 1px solid beige;
+  background-color: white;
+  color: #212121;
+  position: absolute;
+  top: 450px;
+}
+.electronics {
+  color: #212121;
+  height: 50px;
+  width: 100px;
+  font-family: "Times New Roman", Times, serif;
+  display: inline;
+  font-size: 1.5rem;
+}
+.arrow {
+  position: absolute;
+  top: 32px;
+  right: 70px;
+}
+h3 {
+  position: absolute;
+  left: 10px;
+}
+.xerox {
+  height: 250px;
+  width: 200px;
+  color: black;
+  border: 1px solid lightgray;
+  margin: 16px;
+  position: absolute;
+  top: 100px;
+  background-image: url(xerox.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  box-shadow: 0.2px 0.2px;
+  cursor: pointer;
+  scale: (1);
+}
+.xerox:hover {
+  scale: (1.5);
+}
+.pr {
+  position: absolute;
+  top: 190px;
+  left: 50px;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.bank {
+  height: 250px;
+  width: 220px;
+  color: black;
+  border: 1px solid lightgray;
+  margin: 16px;
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  background-image: url(bank.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  box-shadow: 0.2px 0.2px;
+  cursor: pointer;
+}
+.Power {
+  position: absolute;
+  top: 190px;
+  left: 50px;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.shave {
+  height: 250px;
+  width: 200px;
+  color: black;
+  border: 1px solid lightgray;
+  margin: 16px;
+  position: absolute;
+  top: 100px;
+  left: 540px;
+  background-image: url(shave.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  box-shadow: 0.2px 0.2px;
+  cursor: pointer;
+}
+.trim {
+  position: absolute;
+  top: 190px;
+  left: 30px;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.tv {
+  height: 250px;
+  width: 250px;
+  color: black;
+
+  margin: 16px;
+  position: absolute;
+  top: 100px;
+  left: 820px;
+  background-image: url(tv.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  cursor: pointer;
+}
+.t {
+  position: absolute;
+  top: 193px;
+  left: 60px;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.last {
+  height: 280px;
+  width: 180px;
+  color: black;
+  margin: 16px;
+  position: absolute;
+  top: 100px;
+  right: 10px;
+  background-image: url(last.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  cursor: pointer;
+}
+/*long images section*/
+.three {
+  height: 600px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 860px;
+}
+.long {
+  height: 600px;
+  width: 100%;
+  background-image: url(long.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.winter {
+  height: 600px;
+  position: absolute;
+  right: 30px;
+}
+.love {
+  height: 600px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 1470px;
+}
+.shirt {
+  height: 600px;
+  position: absolute;
+  right: 10px;
+}
+.pant {
+  height: 600px;
+  position: absolute;
+  left: 2px;
+}
+.gym {
+  height: 600px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 2085px;
+}
+.items1 {
+  height: 600px;
+  position: absolute;
+  right: 2px;
+}
+.item2 {
+  height: 600px;
+  position: absolute;
+  left: 2px;
+}
+.ending {
+  height: 350px;
+  width: 100%;
+  background-image: url(end.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 2700px;
+}
