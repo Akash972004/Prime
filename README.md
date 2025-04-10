@@ -17,7 +17,7 @@ Check it out here 👉 [https://akash972004.github.io/Prime/](https://akash97200
 
 - HTML5
 - CSS3
-- 
+
 ## 📸 Preview
 ![prime](https://github.com/user-attachments/assets/6ad034b5-5928-463b-8772-27c78f941787)
 
